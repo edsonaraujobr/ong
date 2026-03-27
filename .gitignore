@@ -1,0 +1,16 @@
+# Shopify CLI
+.shopify/*
+!.shopify/project.json
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Editor
+.vscode/
+.idea/
