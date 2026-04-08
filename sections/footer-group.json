@@ -44,6 +44,7 @@
       "block_order": [
         "email_signup_TCQELN"
       ],
+      "disabled": true,
       "name": "t:names.email_signup",
       "settings": {
         "content_direction": "column",
@@ -81,34 +82,13 @@
           "name": "t:names.menu",
           "settings": {
             "menu": "footer",
-            "heading": "Shop",
+            "heading": "Catalogo",
             "menu_spacing": 8,
             "show_as_accordion": false,
             "accordion_icon": "caret",
             "accordion_dividers": false,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "heading_preset": "h4",
-            "link_preset": "h5",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "menu_xJa7q7": {
-          "type": "menu",
-          "name": "t:names.menu",
-          "settings": {
-            "menu": "",
-            "heading": "Customer care",
-            "menu_spacing": 8,
-            "show_as_accordion": false,
-            "accordion_icon": "caret",
-            "accordion_dividers": false,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-03e8a72b-4587-4029-97a7-fbc6a0514304",
             "heading_preset": "h4",
             "link_preset": "h5",
             "padding-block-start": 0,
@@ -123,13 +103,13 @@
           "name": "t:names.menu",
           "settings": {
             "menu": "",
-            "heading": "About us",
+            "heading": "Sobre nós",
             "menu_spacing": 8,
             "show_as_accordion": false,
             "accordion_icon": "caret",
             "accordion_dividers": false,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-03e8a72b-4587-4029-97a7-fbc6a0514304",
             "heading_preset": "h4",
             "link_preset": "h5",
             "padding-block-start": 0,
@@ -144,13 +124,13 @@
           "name": "t:names.menu",
           "settings": {
             "menu": "",
-            "heading": "Connect",
+            "heading": "Colaboradores",
             "menu_spacing": 8,
             "show_as_accordion": false,
             "accordion_icon": "caret",
             "accordion_dividers": false,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-03e8a72b-4587-4029-97a7-fbc6a0514304",
             "heading_preset": "h4",
             "link_preset": "h5",
             "padding-block-start": 0,
@@ -163,14 +143,13 @@
       },
       "block_order": [
         "menu_HADdVb",
-        "menu_xJa7q7",
         "menu_f9RViT",
         "menu_LhkDcq"
       ],
       "settings": {
         "section_width": "page-width",
         "gap": 0,
-        "color_scheme": "",
+        "color_scheme": "scheme-03e8a72b-4587-4029-97a7-fbc6a0514304",
         "padding-block-start": 48,
         "padding-block-end": 48
       }
