@@ -1083,6 +1083,47 @@
         "padding-block-start": 0,
         "padding-block-end": 24
       }
+    },
+    "marquee_yyVJKW": {
+      "type": "marquee",
+      "blocks": {
+        "text_W3iXWx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fazemos coisas que funcionam melhor e duram mais.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "tight",
+            "letter_spacing": "tight",
+            "case": "none",
+            "wrap": "nowrap",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_W3iXWx"
+      ],
+      "name": "t:names.marquee_section",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
     }
   },
   "order": [
@@ -1091,6 +1132,7 @@
     "carousel_awKwrF",
     "marquee_izzYrQ",
     "section_8zY7P4",
-    "product_list_4jqyPz"
+    "product_list_4jqyPz",
+    "marquee_yyVJKW"
   ]
 }
