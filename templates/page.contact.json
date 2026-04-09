@@ -129,7 +129,7 @@
               "static": true,
               "settings": {
                 "label": "Enviar email",
-                "style_class": "button",
+                "style_class": "button-email",
                 "width": "fit-content",
                 "custom_width": 100,
                 "width_mobile": "fit-content",

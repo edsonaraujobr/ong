@@ -474,6 +474,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/BRUNA-OIE-00007.jpg",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "fill",
@@ -496,6 +497,62 @@
               "block_order": [
                 "image_tKWwfK"
               ]
+            },
+            "card_HQh4iY": {
+              "type": "_card",
+              "name": "t:names.card",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "aspect_ratio": "adapt",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "image_n8nLPQ": {
+                  "type": "image",
+                  "name": "t:names.image",
+                  "settings": {
+                    "image": "shopify://shop_images/REBECA-OIE-00003.jpg",
+                    "link": "",
+                    "image_ratio": "portrait",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_n8nLPQ"
+              ]
             }
           },
           "block_order": [
@@ -503,7 +560,8 @@
             "card_AnnyBf",
             "card_kUTybB",
             "card_pPHD9C",
-            "card_yBqTMG"
+            "card_yBqTMG",
+            "card_HQh4iY"
           ]
         }
       },
@@ -701,6 +759,7 @@
         "video_CQx9HE": {
           "type": "video",
           "name": "t:names.video",
+          "disabled": true,
           "settings": {
             "source": "uploaded",
             "video_url": "",
@@ -845,6 +904,7 @@
     },
     "divider_WDCL3k": {
       "type": "divider",
+      "disabled": true,
       "name": "t:names.divider_section",
       "settings": {
         "color_scheme": "",
@@ -862,6 +922,7 @@
       "blocks": {
         "static-header": {
           "type": "_product-list-content",
+          "disabled": true,
           "static": true,
           "settings": {
             "content_direction": "column",

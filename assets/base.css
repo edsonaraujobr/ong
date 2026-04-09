@@ -1307,10 +1307,36 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .button-secondary {
-  font-family: var(--button-font-family-secondary);
-  text-transform: var(--button-text-case-secondary);
-  border-radius: var(--style-border-radius-buttons-secondary);
+  background: #FABC13;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-transform: uppercase;
 }
+
+.button-email {
+  background: #FABC13;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.button-email:hover {
+  background: #daa411;
+  color: white;
+}
+
+.button-email:focus,
+.button-email:focus-visible,
+.button-email:active {
+  outline: none;
+  box-shadow: none;
+}
+
 
 button.shopify-payment-button__button--unbranded {
   font-family: var(--button-font-family-primary);
@@ -1437,9 +1463,18 @@ button.shopify-payment-button__button--unbranded:hover:not([disabled]) {
   display: none;
 }
 
-.link {
+.link-hero {
   display: inline-block;
   text-align: center;
+  color: #000;
+}
+
+.link-hero:hover {
+  text-decoration: underline;
+}
+
+.header-actions__action svg * {
+  stroke: #000 !important;
 }
 
 shopify-accelerated-checkout,
@@ -1823,6 +1858,25 @@ deferred-media[class] :is(.deferred-media__poster-button img, .deferred-media__p
 
 .button-shopify-xr[data-shopify-xr-hidden] {
   display: none;
+}
+
+.marquee {
+  overflow: hidden;
+}
+
+.marquee__inner {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 12s linear infinite;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Swatches */
