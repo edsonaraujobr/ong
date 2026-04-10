@@ -173,7 +173,7 @@
           autoplay: true,
           loop: true,
           controls: false,
-          muted: false,
+          muted: true,
           class: 'hero__media',
           data-testid: 'hero-desktop-video-1'
       }}
@@ -745,6 +745,21 @@
     }
   }
 {% endstylesheet %}
+
+<script>
+  function enableSound() {
+    document.querySelectorAll('video').forEach(video => {
+      video.muted = false;
+      video.play();
+    });
+
+    document.removeEventListener('click', enableSound);
+    document.removeEventListener('touchstart', enableSound);
+  }
+
+  document.addEventListener('click', enableSound);
+  document.addEventListener('touchstart', enableSound);
+</script>
 
 {% schema %}
 {
