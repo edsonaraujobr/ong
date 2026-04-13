@@ -35,7 +35,7 @@
 %}
 
 <span
-  class="buy-buttons-block buy-buttons-block--{{ block.id }}"
+  class="buy-buttons-block buy-buttons-block--{{ block.id }} is-locked"
   {{ block.shopify_attributes }}
 >
   {%- if product != blank -%}
@@ -391,8 +391,13 @@
       if (distance < 0) {
         clearInterval(timerInterval);
         timerElement.style.display = "none"; // Oculta o contador
-        formButtons.style.display = ""; // Remove o display: none, voltando a exibir os botões
-        return;
+// Aqui está a mágica:
+  // Selecionamos o "Pai" de todos e removemos a trava.
+  var container = document.querySelector(".buy-buttons-block--{{ block.id }}");
+  if (container) {
+    container.classList.remove("is-locked"); // Isso libera o 'add-to-cart.liquid' automaticamente
+  }
+  return;
       }
 
       // Cálculos de tempo para dias, horas, minutos e segundos

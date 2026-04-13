@@ -4248,3 +4248,9 @@ product-recommendations:has([data-has-recommendations='false']) {
     translate: 0px var(--atc-destination, 0px);
   }
 }
+
+
+.is-presale-locked .product-form-buttons,
+.is-presale-locked .add-to-cart-button {
+  display: none !important;
+}
