@@ -441,7 +441,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/b_aa71f3e6-0240-4f48-b512-080b62ccd06c.png",
+                    "image": "shopify://shop_images/f.png",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "fill",
@@ -497,7 +497,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/c.png",
+                    "image": "shopify://shop_images/b_aa71f3e6-0240-4f48-b512-080b62ccd06c.png",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "fill",
@@ -553,7 +553,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/d.png",
+                    "image": "shopify://shop_images/g.png",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "fill",
@@ -609,7 +609,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/e.png",
+                    "image": "shopify://shop_images/d.png",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "fill",
@@ -632,6 +632,62 @@
               "block_order": [
                 "image_n8nLPQ"
               ]
+            },
+            "card_GCiCQ8": {
+              "type": "_card",
+              "name": "t:names.card",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "aspect_ratio": "adapt",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "image_L9Hc6n": {
+                  "type": "image",
+                  "name": "t:names.image",
+                  "settings": {
+                    "image": "shopify://shop_images/h.png",
+                    "link": "",
+                    "image_ratio": "portrait",
+                    "width": "fill",
+                    "custom_width": 100,
+                    "width_mobile": "fill",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "image_L9Hc6n"
+              ]
             }
           },
           "block_order": [
@@ -640,7 +696,8 @@
             "card_kUTybB",
             "card_pPHD9C",
             "card_yBqTMG",
-            "card_HQh4iY"
+            "card_HQh4iY",
+            "card_GCiCQ8"
           ]
         }
       },
