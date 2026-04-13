@@ -1,3 +1,5 @@
+{% assign first_product = section.settings.collection.products.first %}
+
 <div id="countdown-{{ id }}" class="countdown-timer">
   Carregando...
 </div>
@@ -18,7 +20,7 @@
     var el = document.getElementById("countdown-{{ id }}");
     if (!el) return;
 
-    var targetDate = new Date("{{ product.metafields.custom.release_date.value }}").getTime();
+    var targetDate = new Date("{{ first_product.metafields.custom.release_date.value }}").getTime();
 
     function updateCountdown() {
       var now = new Date().getTime();
