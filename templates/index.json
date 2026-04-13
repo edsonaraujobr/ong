@@ -737,6 +737,7 @@
             "text_xbjUkh": {
               "type": "text",
               "name": "t:names.heading",
+              "disabled": true,
               "settings": {
                 "text": "<h3>Camisas</h3>",
                 "width": "fit-content",
