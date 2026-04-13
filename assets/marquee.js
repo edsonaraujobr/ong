@@ -34,15 +34,11 @@ class MarqueeComponent extends Component {
     this.#setSpeed(speed);
 
     window.addEventListener('resize', this.#handleResize);
-    this.addEventListener('pointerenter', this.#slowDown);
-    this.addEventListener('pointerleave', this.#speedUp);
   }
 
   disconnectedCallback() {
     super.disconnectedCallback();
     window.removeEventListener('resize', this.#handleResize);
-    this.removeEventListener('pointerenter', this.#slowDown);
-    this.removeEventListener('pointerleave', this.#speedUp);
   }
 
   /**
