@@ -1,5 +1,14 @@
 
 {% liquid
+  assign release_date = product.metafields.custom.release_date.value | date: '%s'
+  assign now = 'now' | date: '%s'
+
+  assign is_released = true
+
+  if release_date and now < release_date
+    assign is_released = false
+  endif
+
   assign block_settings = block.settings
   assign product = closest.product
   if request.visual_preview_mode and product == blank
@@ -22,7 +31,7 @@
       assign quantity_rule_soldout = true
     endif
 
-    if variant.available
+    if is_released and variant.available
       assign can_add_to_cart = true
       assign add_to_cart_text = 'products.product.add_to_cart' | t
     elsif inventory_managed and inventory_quantity <= 0 and inventory_policy == 'deny' or quantity_rule_soldout
