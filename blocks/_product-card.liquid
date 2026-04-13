@@ -8,6 +8,10 @@
   {% content_for 'blocks', closest.product: product %}
 {% endcapture %}
 
+<div class="pre-sale-countdown" data-release="2026-04-19T00:00:00">
+  <span class="countdown-text">Liberado em breve</span>
+  <span class="countdown-timer"></span>
+</div>
 {% render 'product-card', children: children, product: product %}
 {% render 'buy-buttons-styles' %}
 {% render 'gift-card-recipient-form-styles' %}
