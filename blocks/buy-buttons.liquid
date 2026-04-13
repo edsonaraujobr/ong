@@ -1,5 +1,11 @@
 
 {% liquid
+  assign block_settings = block.settings
+  assign product = closest.product
+  if request.visual_preview_mode and product == blank
+    assign product = collections.all.products.first
+  endif
+
   assign release_date = product.metafields.custom.release_date.value | date: '%s'
   assign now = 'now' | date: '%s'
 
@@ -7,12 +13,6 @@
 
   if release_date and now < release_date
     assign is_released = false
-  endif
-
-  assign block_settings = block.settings
-  assign product = closest.product
-  if request.visual_preview_mode and product == blank
-    assign product = collections.all.products.first
   endif
 
   assign variant = closest.product.selected_or_first_available_variant
