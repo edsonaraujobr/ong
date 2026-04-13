@@ -18,7 +18,7 @@
     var el = document.getElementById("countdown-{{ id }}");
     if (!el) return;
 
-    var targetDate = new Date("{{ date }}").getTime();
+    var targetDate = new Date("{{ section.settings.collection.metafields.custom.release_date }}").getTime();
 
     function updateCountdown() {
       var now = new Date().getTime();
