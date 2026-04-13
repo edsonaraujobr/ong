@@ -385,7 +385,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/a_11988fc7-42c7-4837-a65c-7a2ce1f8ea43.png",
+                    "image": "shopify://shop_images/a_84b68f2d-f10b-4ba9-b854-d47af7f80368.png",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "fill",
@@ -441,7 +441,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/b_0be24cd9-27c6-4dc2-8527-d9a09b9a2d0f.png",
+                    "image": "shopify://shop_images/b_aa71f3e6-0240-4f48-b512-080b62ccd06c.png",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "fill",
@@ -553,7 +553,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/BRUNA-OIE-00007.jpg",
+                    "image": "shopify://shop_images/d.png",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "fill",
@@ -609,7 +609,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/REBECA-OIE-00003.jpg",
+                    "image": "shopify://shop_images/e.png",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "fill",
