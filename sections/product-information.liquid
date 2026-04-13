@@ -29,6 +29,15 @@
     assign current_variant = product.selected_or_first_available_variant
     # Get the initial quantity based on quantity rules
     assign initial_quantity = current_variant.quantity_rule.min | default: 1
+
+      assign release_date = product.metafields.custom.release_date.value | date: '%s'
+  assign now = 'now' | date: '%s'
+
+  assign is_released = true
+
+  if release_date and now < release_date
+    assign is_released = false
+  endif
   %}
 
   <sticky-add-to-cart
