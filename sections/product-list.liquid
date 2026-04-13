@@ -24,7 +24,8 @@
     {%- content_for 'block', type: '_product-list-content', id: 'static-header' -%}
   </div>
 
-  {% render 'countdown', id: 'home', date: release_date %}
+  {% render 'countdown', id: 'home' %}
+
   {% capture list_items %}
     {% if section.settings.collection != blank and shop.products_count != 0 %}
       {% paginate section.settings.collection.products by max_items %}
