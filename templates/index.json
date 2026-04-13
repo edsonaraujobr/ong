@@ -255,6 +255,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "hover_name": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -357,6 +358,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "hover_name": "Luísa Sonza",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -413,6 +415,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "hover_name": "Rebeca Andrade",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -469,6 +472,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "hover_name": "Bruna Marquezine",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -525,6 +529,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "hover_name": "Juliana Souza",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -581,6 +586,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "hover_name": "Thaila Ayala",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -637,6 +643,7 @@
               "type": "_card",
               "name": "t:names.card",
               "settings": {
+                "hover_name": "Tercília Conceição",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
