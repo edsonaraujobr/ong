@@ -9,10 +9,12 @@
 {% endcapture %}
 
 <div class="pre-sale-countdown" data-release="2026-04-19T00:00:00">
-  <span class="countdown-text">Liberado em breve</span>
+  <span class="countdown-text">Pré-venda:</span>
   <span class="countdown-timer"></span>
 </div>
+
 {% render 'product-card', children: children, product: product %}
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const countdowns = document.querySelectorAll(".pre-sale-countdown");
