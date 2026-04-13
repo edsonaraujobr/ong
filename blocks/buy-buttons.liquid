@@ -76,6 +76,7 @@
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section, block: block -%}
           <span class="buy-buttons-block__bar">
         {%- endif -%}
+        <div id="presale-timer" class="presale-countdown"></div>
         <div
           class="product-form-buttons spacing-style{% if block_settings.stacking %} product-form-buttons--stacked{% endif %}"
           style="{% render 'spacing-style', settings: block_settings %}"
@@ -374,6 +375,34 @@
 {% endif %}
 
 {% render 'buy-buttons-styles' %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var releaseDate = "{{ product.metafields.custom.release_date.value }}";
+  var countDownDate = new Date(releaseDate).getTime();
+  var el = document.getElementById("presale-timer");
+
+  if (!releaseDate || !el) return;
+
+  var interval = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+
+    if (distance <= 0) {
+      el.innerHTML = "Já disponível!";
+      clearInterval(interval);
+      return;
+    }
+
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+    var minutes = Math.floor((distance / (1000 * 60)) % 60);
+    var seconds = Math.floor((distance / 1000) % 60);
+
+    el.innerHTML = `Disponível em: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+  }, 1000);
+});
+</script>
 
 {% schema %}
 {
