@@ -27,35 +27,6 @@
   %}
 </span>
 
-document.addEventListener('DOMContentLoaded', function() {
-  var targetDate = new Date("2026-04-19T00:00:00").getTime();
-
-  function disableAllATC() {
-    document.querySelectorAll('button[name="add"], [data-testid="standalone-add-to-cart"]').forEach(btn => {
-      btn.disabled = true;
-      btn.innerText = "Disponível em breve";
-    });
-  }
-
-  function enableAllATC() {
-    document.querySelectorAll('button[name="add"], [data-testid="standalone-add-to-cart"]').forEach(btn => {
-      btn.disabled = false;
-    });
-  }
-
-  function checkTime() {
-    var now = new Date().getTime();
-
-    if (now < targetDate) {
-      disableAllATC();
-    } else {
-      enableAllATC();
-    }
-  }
-
-  checkTime();
-  setInterval(checkTime, 1000);
-});
 
 {% schema %}
 {
