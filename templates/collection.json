@@ -49,12 +49,12 @@
         "horizontal_alignment": "space-between",
         "vertical_alignment": "flex-end",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
+        "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 12,
         "section_width": "page-width",
         "section_height": "",
-        "section_height_custom": 50,
+        "section_height_custom": 0,
         "color_scheme": "scheme-1",
         "background_media": "none",
         "video_position": "cover",
@@ -67,8 +67,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 80,
-        "padding-block-end": 80
+        "padding-block-start": 36,
+        "padding-block-end": 36
       }
     },
     "main-collection": {
