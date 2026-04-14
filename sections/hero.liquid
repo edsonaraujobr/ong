@@ -790,6 +790,33 @@
 
   document.addEventListener('click', enableSound);
   document.addEventListener('touchstart', enableSound);
+
+  (function () {
+    const button = document.getElementById('heroMuteToggle');
+    if (!button) return;
+
+    let isMuted = true;
+
+    function updateVideos() {
+      document.querySelectorAll('#Hero-{{ section.id }} video').forEach(video => {
+        video.muted = isMuted;
+        if (!isMuted) {
+          video.play();
+        }
+      });
+
+      button.textContent = isMuted ? '🔇' : '🔊';
+    }
+
+    button.addEventListener('click', function (e) {
+      e.stopPropagation();
+      isMuted = !isMuted;
+      updateVideos();
+    });
+
+    // garante estado inicial
+    updateVideos();
+  })();
 </script>
 
 {% schema %}
