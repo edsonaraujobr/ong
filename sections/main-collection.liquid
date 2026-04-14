@@ -22,7 +22,38 @@
   }
 {% endjavascript %}
 
-{% comment %} We always render this full-width, as the child blocks have width: page/full settings {% endcomment %}
+<style>
+  .product-grid__item {
+    border: 2px solid #FABC13;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+  }
+
+  .product-grid__item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    z-index: 1;
+  }
+
+  .product-grid__item .price,
+  .product-grid__item .price-item,
+  .product-grid__item .price__regular {
+    color: #FABC13;
+    font-weight: 900;
+    font-size: 1.25rem;
+  }
+
+  .product-grid__item h3, 
+  .product-grid__item .card__heading,
+  .product-grid__item .product-title {
+    font-weight: 800;
+    font-size: 1.1rem;
+  }
+</style>
+
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <results-list
   class="section product-grid-container color-{{ section.settings.color_scheme }}"
