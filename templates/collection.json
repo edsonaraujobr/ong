@@ -20,7 +20,7 @@
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
-            "type_preset": "h1",
+            "type_preset": "h2",
             "font": "var(--font-primary--family)",
             "font_size": "",
             "line_height": "normal",
@@ -67,8 +67,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 36,
-        "padding-block-end": 36
+        "padding-block-start": 20,
+        "padding-block-end": 20
       }
     },
     "main-collection": {
