@@ -254,6 +254,7 @@
             "card_TGqUqV": {
               "type": "_card",
               "name": "t:names.card",
+              "disabled": true,
               "settings": {
                 "hover_name": "",
                 "content_direction": "column",
