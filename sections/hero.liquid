@@ -622,24 +622,8 @@
   .hero__media-grid {
     position: absolute;
     inset: 0;
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-  }
-
-  .hero__media-wrapper,
-  .hero__media {
-    min-width: 100%;
-    scroll-snap-align: start;
-  }
-
-  .hero__media-grid::-webkit-scrollbar {
-    display: none;
-  }
-  .hero__media-grid {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    display: grid;
+    grid-template-columns: repeat(var(--hero-media-count, 1), 1fr);
   }
 
   .hero--auto .hero__media {
