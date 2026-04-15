@@ -75,6 +75,7 @@
         "spacer_iqNMWF",
         "button_3cL8kq"
       ],
+      "disabled": true,
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "video",
@@ -108,6 +109,36 @@
         "padding-block-start": 0,
         "padding-block-end": 48
       }
+    },
+    "hero_carousel_gAwTiw": {
+      "type": "hero-carousel",
+      "blocks": {
+        "slide_GhhYNy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/REBECA-OIE-00003_5bf0b2a3-d3ac-4894-a448-733b80ecb88d.jpg"
+          }
+        },
+        "slide_qyTF8B": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MICL6180_1.jpg"
+          }
+        },
+        "slide_c9MQ7J": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BRUNA-OIE-00003.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GhhYNy",
+        "slide_qyTF8B",
+        "slide_c9MQ7J"
+      ],
+      "name": "Hero Carrossel",
+      "settings": {}
     },
     "section_RjwawM": {
       "type": "section",
@@ -1033,6 +1064,7 @@
   },
   "order": [
     "hero_rhMed7",
+    "hero_carousel_gAwTiw",
     "section_RjwawM",
     "carousel_awKwrF",
     "marquee_izzYrQ",
