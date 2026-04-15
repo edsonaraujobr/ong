@@ -113,6 +113,18 @@
     "hero_carousel_gAwTiw": {
       "type": "hero-carousel",
       "blocks": {
+        "slide_aBh749": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/02_f526736c-3d5f-4b9a-96a4-26678d5063de.png"
+          }
+        },
+        "slide_TdWijH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/01.png"
+          }
+        },
         "slide_GhhYNy": {
           "type": "slide",
           "settings": {
@@ -125,6 +137,12 @@
             "image": "shopify://shop_images/MICL6180_1.jpg"
           }
         },
+        "slide_QaRnVx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/03.png"
+          }
+        },
         "slide_c9MQ7J": {
           "type": "slide",
           "settings": {
@@ -133,8 +151,11 @@
         }
       },
       "block_order": [
+        "slide_aBh749",
+        "slide_TdWijH",
         "slide_GhhYNy",
         "slide_qyTF8B",
+        "slide_QaRnVx",
         "slide_c9MQ7J"
       ],
       "name": "Hero Carrossel",
