@@ -622,9 +622,24 @@
   .hero__media-grid {
     position: absolute;
     inset: 0;
-    display: grid;
-    grid-column: 1 / -1;
-    grid-template-columns: repeat(var(--hero-media-count, 1), 1fr);
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+
+  .hero__media-wrapper,
+  .hero__media {
+    min-width: 100%;
+    scroll-snap-align: start;
+  }
+
+  .hero__media-grid::-webkit-scrollbar {
+    display: none;
+  }
+  .hero__media-grid {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 
   .hero--auto .hero__media {
@@ -817,6 +832,60 @@
     // garante estado inicial
     updateVideos();
   })();
+
+  (function () {
+  const container = document.querySelector('#Hero-{{ section.id }} .hero__media-grid');
+
+  if (!container) return;
+
+  let interval = null;
+  let delay = 4000; // tempo entre slides (4s)
+  let isPaused = false;
+
+  function nextSlide() {
+    const maxScroll = container.scrollWidth - container.clientWidth;
+    const current = container.scrollLeft;
+
+    if (current >= maxScroll - 5) {
+      // volta pro início
+      container.scrollTo({ left: 0, behavior: 'smooth' });
+    } else {
+      container.scrollBy({ left: container.clientWidth, behavior: 'smooth' });
+    }
+  }
+
+  function startAutoplay() {
+    interval = setInterval(() => {
+      if (!isPaused) nextSlide();
+    }, delay);
+  }
+
+  function stopAutoplay() {
+    clearInterval(interval);
+  }
+
+  // pausa ao passar o mouse (UX melhor)
+  container.addEventListener('mouseenter', () => {
+    isPaused = true;
+  });
+
+  container.addEventListener('mouseleave', () => {
+    isPaused = false;
+  });
+
+  // pausa ao tocar no mobile
+  container.addEventListener('touchstart', () => {
+    isPaused = true;
+  });
+
+  container.addEventListener('touchend', () => {
+    setTimeout(() => {
+      isPaused = false;
+    }, 3000);
+  });
+
+  startAutoplay();
+})();
 </script>
 
 {% schema %}
