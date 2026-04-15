@@ -140,7 +140,7 @@
         "slide_QaRnVx": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/03.png"
+            "image": "shopify://shop_images/03_1f21b1c7-7752-44f5-824f-61da262d3834.png"
           }
         },
         "slide_c9MQ7J": {
@@ -754,7 +754,7 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
-                    "image": "shopify://shop_images/h.png",
+                    "image": "shopify://shop_images/03_1f21b1c7-7752-44f5-824f-61da262d3834.png",
                     "link": "",
                     "image_ratio": "portrait",
                     "width": "fill",
