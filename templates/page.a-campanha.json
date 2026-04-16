@@ -12,37 +12,11 @@
     "main": {
       "type": "main-page",
       "blocks": {
-        "heading": {
-          "type": "text",
-          "name": "Title",
-          "settings": {
-            "text": "<h1>{{ closest.page.title }}</h1>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h2",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
         "text_PfGtcC": {
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p><br/>Este projeto foi viabilizado por profissionais que contribuíram com seus talentos para dar vida à campanha.<br/><br/></p>",
+            "text": "<h3><strong>OIÉ — O Impossível é Provisório</strong><br/><br/></h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -57,7 +31,7 @@
             "background": false,
             "background_color": "#00000026",
             "corner_radius": 0,
-            "padding-block-start": 0,
+            "padding-block-start": 32,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
@@ -68,7 +42,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p><strong>Direção da campanha: </strong><br/>Carlos Salles</p><p></p><p><strong>Designer de marca: </strong><br/>Gustavo da Mata</p><p></p><p><strong>Desenvolvimento do e-commerce:</strong><br/><a href=\"https://www.linkedin.com/in/andreilevi/\" target=\"_blank\" title=\"https://www.linkedin.com/in/andreilevi/\">Andrei Levi</a><br/><a href=\"https://linkedin.com/in/edsonaraujobr\" target=\"_blank\" title=\"https://linkedin.com/in/edsonaraujobr\">Edson Araújo</a></p>",
+            "text": "<p>Há ideias que nos encontram quando tudo parece exigir que desistamos.</p><p>Ideias que nos lembram que nenhum limite é definitivo quando alguém decide atravessá-lo.</p><p>O impossível nunca foi um destino.<br/> Foi apenas o nome dado, em determinado tempo, àquilo que ainda não tinha acontecido.</p><p>Esta frase nasce de um gesto de continuidade , de mãe para filha, e carrega a memória de quem precisou imaginar antes de poder viver.</p><p>Não há futuro que não tenha começado como coragem.</p><p>Cada pessoa que insiste amplia o caminho para as que vêm depois.<br/>Cada pessoa que acredita desloca o limite um pouco mais.</p><p>Cada passo muda o lugar de onde partimos.</p><p>Queremos convidar você a se sonhar.</p><p>A se reconhecer possível.</p><p>O impossível é provisório.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -92,7 +66,6 @@
         }
       },
       "block_order": [
-        "heading",
         "text_PfGtcC",
         "text_3QKQB3"
       ],
@@ -100,7 +73,7 @@
         "content_direction": "column",
         "gap": 32,
         "color_scheme": "",
-        "padding-block-start": 40,
+        "padding-block-start": 0,
         "padding-block-end": 80
       }
     }
