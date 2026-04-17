@@ -451,7 +451,9 @@
                 "gap": 12,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
-                "background_media": "none",
+                "background_media": "image",
+                "background_image": "shopify://shop_images/a_84b68f2d-f10b-4ba9-b854-d47af7f80368.png",
+                "background_image_2": "shopify://shop_images/luisa-foto-loop.png",
                 "aspect_ratio": "adapt",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
@@ -464,34 +466,7 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "image_QLiVGf": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/a_84b68f2d-f10b-4ba9-b854-d47af7f80368.png",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_QLiVGf"
-              ]
+              "blocks": {}
             },
             "card_kUTybB": {
               "type": "_card",
@@ -508,7 +483,9 @@
                 "gap": 12,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
-                "background_media": "none",
+                "background_media": "image",
+                "background_image": "shopify://shop_images/f.png",
+                "background_image_2": "shopify://shop_images/rebeca-foto-loop.png",
                 "aspect_ratio": "adapt",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
@@ -521,34 +498,7 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "image_Uccxg3": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/f.png",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_Uccxg3"
-              ]
+              "blocks": {}
             },
             "card_pPHD9C": {
               "type": "_card",
@@ -565,7 +515,9 @@
                 "gap": 12,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
-                "background_media": "none",
+                "background_media": "image",
+                "background_image": "shopify://shop_images/b_aa71f3e6-0240-4f48-b512-080b62ccd06c.png",
+                "background_image_2": "shopify://shop_images/bruna-foto-loop.png",
                 "aspect_ratio": "adapt",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
@@ -578,34 +530,7 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "image_cMNYiH": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/b_aa71f3e6-0240-4f48-b512-080b62ccd06c.png",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_cMNYiH"
-              ]
+              "blocks": {}
             },
             "card_yBqTMG": {
               "type": "_card",
@@ -622,7 +547,9 @@
                 "gap": 12,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
-                "background_media": "none",
+                "background_media": "image",
+                "background_image": "shopify://shop_images/g.png",
+                "background_image_2": "shopify://shop_images/juliana-foto-loop.png",
                 "aspect_ratio": "adapt",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
@@ -635,34 +562,7 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "image_tKWwfK": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/g.png",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_tKWwfK"
-              ]
+              "blocks": {}
             },
             "card_HQh4iY": {
               "type": "_card",
@@ -679,7 +579,9 @@
                 "gap": 12,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
-                "background_media": "none",
+                "background_media": "image",
+                "background_image": "shopify://shop_images/d.png",
+                "background_image_2": "shopify://shop_images/thayla-foto-loop.png",
                 "aspect_ratio": "adapt",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
@@ -692,34 +594,7 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "image_n8nLPQ": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/d.png",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_n8nLPQ"
-              ]
+              "blocks": {}
             },
             "card_GCiCQ8": {
               "type": "_card",
@@ -736,7 +611,9 @@
                 "gap": 12,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
-                "background_media": "none",
+                "background_media": "image",
+                "background_image": "shopify://shop_images/03_1f21b1c7-7752-44f5-824f-61da262d3834.png",
+                "background_image_2": "shopify://shop_images/tercilia-foto-loop.png",
                 "aspect_ratio": "adapt",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
@@ -749,34 +626,7 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {
-                "image_L9Hc6n": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "image": "shopify://shop_images/03_1f21b1c7-7752-44f5-824f-61da262d3834.png",
-                    "link": "",
-                    "image_ratio": "portrait",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_L9Hc6n"
-              ]
+              "blocks": {}
             }
           },
           "block_order": [
