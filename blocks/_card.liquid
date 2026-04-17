@@ -67,13 +67,21 @@
 
   {%- if preview_image or block_settings.toggle_overlay or show_placeholder -%}
     <div class="card__media-wrapper">
-      {% render 'background-media',
-        background_media: block_settings.background_media,
-        background_video: block_settings.video,
-        background_video_position: 'cover',
-        background_image: block_settings.background_image,
-        background_image_position: 'cover'
-      %}
+      
+      <div class="card__media-main" style="width: 100%; height: 100%;">
+        {% render 'background-media',
+          background_media: block_settings.background_media,
+          background_video: block_settings.video,
+          background_video_position: 'cover',
+          background_image: block_settings.background_image,
+          background_image_position: 'cover'
+        %}
+      </div>
+
+      {%- if block_settings.background_image_2 != blank -%}
+        {{ block_settings.background_image_2 | image_url: width: 1200 | image_tag: class: 'card__media-auto-slide', loading: 'lazy' }}
+      {%- endif -%}
+
       {%- if block_settings.toggle_overlay -%}
         {% render 'overlay', settings: block_settings %}
       {%- endif -%}
@@ -204,6 +212,29 @@
   .card:hover .custom-card-hover {
     opacity: 1;
     transform: translateY(0); 
+  }
+
+  .card__media-auto-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    animation: crossfadeLoop 6s infinite ease-in-out;
+  }
+
+  @keyframes crossfadeLoop {
+    0%, 20% { 
+      opacity: 0;
+    } 
+    40%, 70% { 
+      opacity: 1;
+    } 
+    90%, 100% { 
+      opacity: 0;
+    } 
   }
 {% endstylesheet %}
 
@@ -421,6 +452,13 @@
       "type": "image_picker",
       "id": "background_image",
       "label": "t:settings.image",
+      "visible_if": "{{ block.settings.background_media == \"image\" }}"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_2",
+      "label": "Segunda Imagem (Loop Automático)",
+      "info": "Esta imagem aparecerá automaticamente após alguns segundos com uma transição suave.",
       "visible_if": "{{ block.settings.background_media == \"image\" }}"
     },
     {
