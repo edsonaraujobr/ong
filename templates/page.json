@@ -68,7 +68,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p><strong>Direção da campanha: </strong><br/>Carlos Salles</p><p></p><p><strong>Designer de marca: </strong><br/>Gustavo da Mata</p><p></p><p><strong>Desenvolvimento do e-commerce:</strong><br/><a href=\"https://www.linkedin.com/in/andreilevi/\" target=\"_blank\" title=\"https://www.linkedin.com/in/andreilevi/\">Andrei Levi</a><br/><a href=\"https://linkedin.com/in/edsonaraujobr\" target=\"_blank\" title=\"https://linkedin.com/in/edsonaraujobr\">Edson Araújo</a></p>",
+            "text": "<p><strong>Direção da campanha: </strong><br/>Carlos Salles</p><p></p><p><strong>Designer de marca: </strong><br/>Gustavo da Mata</p><p></p><p><strong>Desenvolvimento do e-commerce:</strong><br/><a href=\"https://doe.programadoresdoamanha.org.br/\" target=\"_blank\" title=\"https://doe.programadoresdoamanha.org.br/\">Pogramadores do amanhã</a>, através dos desenvolvedores:<br/><a href=\"https://www.linkedin.com/in/andreilevi/\" target=\"_blank\" title=\"https://www.linkedin.com/in/andreilevi/\">Andrei Levi</a><br/><a href=\"https://linkedin.com/in/edsonaraujobr\" target=\"_blank\" title=\"https://linkedin.com/in/edsonaraujobr\">Edson Araújo</a></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
