@@ -10,24 +10,15 @@
     data-testid="footer-utilities"
   >
 
-    <!-- COLUNA 1: INSTITUCIONAL -->
     <div class="footer-column">
       <h4>Institucional</h4>
       <a href="/pages/colaboradores">Colaboradores</a>
-      <a href="/collections/all">Participe</a>
-      <a href="https://www.desvelandooris.com/" target="_blank">Saiba mais</a>
+      <a href="{{ routes.all_products_collection_url }}">Participe</a>
     </div>
 
-    <!-- COLUNA 2: POLÍTICAS / SHOPIFY -->
     <div class="footer-column">
       {% content_for 'blocks' %}
     </div>
-
-    <!-- COLUNA 3: REDES SOCIAIS -->
-    {% comment %} <div class="footer-column">
-      <h4>Redes sociais</h4>
-      {% render 'social-icons' %}
-    </div> {% endcomment %}
 
     <div class="footer-extra">
       <p class="footer-title">
@@ -78,7 +69,6 @@
   transform: translateX(2px);
 }
 
-/* GRID RESPONSIVO */
 @media screen and (min-width: 750px) {
   .utilities {
     display: grid;
