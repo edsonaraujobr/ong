@@ -68,7 +68,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p><strong>Desenvolvimento do e-commerce:</strong><br/>Programadores do Amanhã, através dos desenvolvedores:</p><p>Andrei Levi e Edson Araújo.</p>",
+            "text": "<p><strong>Desenvolvimento do site:</strong><br/>Programadores do Amanhã, através dos desenvolvedores:</p><p>Andrei Levi e Edson Araújo.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
