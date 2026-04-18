@@ -75,7 +75,6 @@
         "spacer_iqNMWF",
         "button_3cL8kq"
       ],
-      "disabled": true,
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "video",
@@ -158,6 +157,7 @@
         "slide_QaRnVx",
         "slide_c9MQ7J"
       ],
+      "disabled": true,
       "name": "Hero Carrossel",
       "settings": {}
     },
